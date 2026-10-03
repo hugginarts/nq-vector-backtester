@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">NQ Vector 5M</title>
+  <desc id="desc">A dark, violet and blue banner for an MNQ five-minute backtesting research tool.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0a12"/>
+      <stop offset="0.58" stop-color="#14121f"/>
+      <stop offset="1" stop-color="#0a1220"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#56d7e8"/>
+      <stop offset="0.54" stop-color="#a879ff"/>
+      <stop offset="1" stop-color="#61d6a4"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#7d45df" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#7d45df" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#a9a2bb" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1070" cy="210" rx="410" ry="260" fill="url(#glow)"/>
+  <path d="M0 363H1400" stroke="#a879ff" stroke-opacity=".35"/>
+  <g opacity=".25" stroke="#a9a2bb" stroke-width="2">
+    <path d="M760 282v-70m0 18v32m60-110v85m0-65v31m60-53v104m0-73v40m60-134v120m0-80v31m60-3v92m0-71v33m60-56v105m0-73v34m60-125v93m0-59v28m60-16v101m0-71v32m60-101v104m0-65v33"/>
+  </g>
+  <path d="M740 279 800 245 860 258 920 189 980 207 1040 141 1100 160 1160 103 1220 126 1280 73 1350 92" fill="none" stroke="url(#line)" stroke-opacity=".28" stroke-width="14" filter="url(#soft)"/>
+  <path d="M740 279 800 245 860 258 920 189 980 207 1040 141 1100 160 1160 103 1220 126 1280 73 1350 92" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1350" cy="92" r="7" fill="#61d6a4"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="76" y="105" fill="#b99bff" font-size="16" font-weight="700" letter-spacing="4">LOCAL CSV BACKTEST · PAPER ONLY</text>
+    <text x="72" y="196" fill="#f5f2fb" font-size="72" font-weight="750" letter-spacing="-2">NQ Vector <tspan fill="#a879ff">5M</tspan></text>
+    <text x="78" y="247" fill="#c9c3d5" font-size="25" font-weight="450">MNQ strategy research, built around your own market data.</text>
+    <rect x="78" y="294" width="210" height="42" rx="21" fill="#241a35" stroke="#59427d"/>
+    <circle cx="100" cy="315" r="5" fill="#61d6a4"/>
+    <text x="116" y="321" fill="#e7dcff" font-size="14" font-weight="650" letter-spacing="1.4">LOCAL · NO BROKER</text>
+  </g>
+</svg>
